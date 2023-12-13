@@ -3,11 +3,12 @@
 // @namespace    https://github.com/ilil2/B2-Overlay
 // @version      0.1
 // @description  WIN AGAINST D2
-// @author       B2
+// @author       WarpGates Studio
 // @match        https://liste.bdekraken.fr/place
 // @grant        none
-// @updateURL    https://github.com/ilil2/B2-Overlay/blob/main/overlay.js
-// @downloadURL  https://github.com/ilil2/B2-Overlay/blob/main/overlay.js
+// @icon         https://raw.githubusercontent.com/ilil2/B2-Overlay/main/image.png
+// @updateURL    https://raw.githubusercontent.com/ilil2/B2-Overlay/main/B2-Overlay-0.1.user.js
+// @downloadURL  https://raw.githubusercontent.com/ilil2/B2-Overlay/main/B2-Overlay-0.1.user.js
 // ==/UserScript==
 
 
