@@ -39,12 +39,12 @@
                     var y = (4080/255)*5;
 
                     // Nouvelles dimensions de l'image sur le canvas
-                    var newWidth = (4080/255); // Ajustez la nouvelle largeur selon vos besoins
+                    var newWidth = (4080/255)*52; // Ajustez la nouvelle largeur selon vos besoins
                     var newHeight = (newWidth / image.width) * image.height; // Maintenir le ratio
 
                     // Rendre l'image plus opaque
                     //image.style.opacity = '0.35'; // La valeur peut varier de 0 (transparent) à 1 (opaque)
-                    context.globalAlpha = '0.35'
+                    context.globalAlpha = '0.6'
 
                     // Dessiner l'image sur le canvas avec les nouvelles dimensions
                     context.drawImage(image, x, y, newWidth, newHeight);
