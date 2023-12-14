@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         B2 Overlay
+// @name         WG Overlay
 // @namespace    https://github.com/ilil2/B2-Overlay
 // @version      0.1
 // @description  WIN AGAINST D2
 // @author       WarpGates Studio
 // @match        https://liste.bdekraken.fr/place
 // @grant        none
-// @icon         https://raw.githubusercontent.com/ilil2/B2-Overlay/main/image.png
+// @icon         https://raw.githubusercontent.com/ilil2/B2-Overlay/main/pixelwarpgates-2.png
 // @updateURL    https://raw.githubusercontent.com/ilil2/B2-Overlay/main/WG-Overlay-0.1.user.js
 // @downloadURL  https://raw.githubusercontent.com/ilil2/B2-Overlay/main/WG-Overlay-0.1.user.js
 // ==/UserScript==
