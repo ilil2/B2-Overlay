@@ -35,11 +35,11 @@
                 // Attendre que l'image soit chargée avant de la dessiner
                 image.onload = function() {
                     // Position de l'image sur le canvas (ajustez ces valeurs selon vos besoins)
-                    var x = (4080/255)*194;
+                    var x = (4080/255)*153;
                     var y = (4080/255)*5;
 
                     // Nouvelles dimensions de l'image sur le canvas
-                    var newWidth = (4080/255)*52; // Ajustez la nouvelle largeur selon vos besoins
+                    var newWidth = (4080/255)*102; // Ajustez la nouvelle largeur selon vos besoins
                     var newHeight = (newWidth / image.width) * image.height; // Maintenir le ratio
 
                     // Rendre l'image plus opaque
