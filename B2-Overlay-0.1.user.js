@@ -28,7 +28,7 @@
 
                 image.onload = function() {
                     var x = (4080/255)*0;
-                    var y = (4080/255)*0;
+                    var y = (4080/255)*5;
 
                     var newWidth = (4080/255)*255; 
                     var newHeight = (newWidth / image.width) * image.height; 
