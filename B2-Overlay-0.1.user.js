@@ -27,10 +27,10 @@
                 image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/OverlayB2.png';
 
                 image.onload = function() {
-                    var x = (4080/255)*153;
-                    var y = (4080/255)*5;
+                    var x = (4080/255)*0;
+                    var y = (4080/255)*0;
 
-                    var newWidth = (4080/255)*102; 
+                    var newWidth = (4080/255)*255; 
                     var newHeight = (newWidth / image.width) * image.height; 
 
                     context.globalAlpha = '1'
