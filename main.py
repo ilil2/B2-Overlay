@@ -21,4 +21,4 @@ def agrandir_image(input_path, output_path):
         nouvelle_image.save(output_path, format = "PNG")
 
 # Utiliser la fonction sur une image spécifique
-agrandir_image('OverlayB2-2.png', 'OverlayB2.png')
+agrandir_image('OverlayB2-2-Extended.png', 'OverlayB2-Extended.png')
