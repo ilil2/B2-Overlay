@@ -11,7 +11,7 @@ Extension: https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/B2-Overl
 ## Etape 3 - Cliquer sur [Installer]:
 
 ## Etape 4 - Se rendre sur la KrakenPlace:
-Le lien: https://liste.bdekraken.fr/place
+Le lien: [https://liste.bdekraken.fr/place](https://place.liste.bdekraken.fr/)
 
 ## Etape 5 - Placer vos pixels:
 Sur chaque pixel il y a un petit carré au milieu du pixel qui indique la couleur à placer sur le pixel
