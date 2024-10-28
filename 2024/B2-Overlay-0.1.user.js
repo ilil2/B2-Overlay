@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         krak Overlay 2024
 // @namespace    https://github.com/ilil2/B2-Overlay
-// @version      0.1
+// @version      0.2
 // @description  WIN AGAINST D2
 // @author       WarpGates Studio
 // @match        https://place.liste.bdekraken.fr
