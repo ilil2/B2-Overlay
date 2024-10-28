@@ -36,15 +36,15 @@
                     var y = (4080/255)*208;
                     var x2 = (4080/255)*100;
                     var y2 = (4080/255)*100;
-                    var x3 = (4080/255)*50;
-                    var y3 = (4080/255)*100;
+                    var x3 = (4080/255)*45;
+                    var y3 = (4080/255)*110;
 
                     var newWidth = (4080/255)*22;
                     var newHeight = (newWidth / image.width) * image.height;
                     var newWidth2 = (4080/255)*47;
                     var newHeight2 = (newWidth2 / image2.width) * image2.height;
                     var newWidth3 = (4080/255)*22;
-                    var newHeight3 = (newWidth2 / image2.width) * image2.height;
+                    var newHeight3 = (newWidth3 / image3.width) * image3.height;
 
                     context.globalAlpha = '1'
 
