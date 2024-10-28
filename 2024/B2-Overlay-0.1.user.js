@@ -27,7 +27,7 @@
                 var image = new Image();
                 image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/r2b2-3px.png';
                 var image2 = new Image();
-                image2.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/rick-3px.png';
+                image2.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/rick-3px.png';
 
                 image.onload = function() {
                     var x = (4080/255)*218;
