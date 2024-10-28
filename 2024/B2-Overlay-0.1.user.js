@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         B2 Overlay
+// @name         krak Overlay 2024
 // @namespace    https://github.com/ilil2/B2-Overlay
 // @version      0.1
 // @description  WIN AGAINST D2
 // @author       WarpGates Studio
-// @match        https://liste.bdekraken.fr/place
-// @match        https://liste.bdekraken.fr/place/
+// @match        https://place.liste.bdekraken.fr
+// @match        https://place.liste.bdekraken.fr/
 // @grant        none
 // @icon         https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/image.png
 // @updateURL    https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/B2-Overlay-0.1.user.js
@@ -17,7 +17,7 @@
     'use strict';
 
     function setupImage() {
-        if (window.location.href === 'https://liste.bdekraken.fr/place') {
+        if (window.location.href === 'https://place.liste.bdekraken.fr') {
 
             var canvas = document.getElementsByClassName("canvas svelte-1kjn625");
 
