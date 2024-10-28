@@ -25,13 +25,13 @@
                 var context = canvas[0].getContext('2d');
 
                 var image = new Image();
-                image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/OverlayB2.png';
+                image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/2b2-3px.png';
                 //var image2 = new Image();
                 //image2.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/kraken-3px.png';
 
                 image.onload = function() {
-                    var x = (4080/255)*0;
-                    var y = (4080/255)*5;
+                    var x = (4080/255)*210;
+                    var y = (4080/255)*210;
                     //var x2 = (4080/255)*20;
                     //var y2 = (4080/255)*150;
 
