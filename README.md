@@ -6,7 +6,7 @@
 - OperaGX: https://addons.opera.com/en/extensions/details/tampermonkey-beta/
 
 ## Etape 2 - Cliquer sur le lien:
-Extension: https://raw.githubusercontent.com/ilil2/B2-Overlay/main/B2-Overlay-0.1.user.js
+Extension: https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/B2-Overlay-0.1.user.js
 
 ## Etape 3 - Cliquer sur [Installer]:
 
