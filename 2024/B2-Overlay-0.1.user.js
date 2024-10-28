@@ -30,12 +30,12 @@
                 //image2.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/kraken-3px.png';
 
                 image.onload = function() {
-                    var x = (4080/255)*210;
-                    var y = (4080/255)*210;
+                    var x = (4080/255)*218;
+                    var y = (4080/255)*208;
                     //var x2 = (4080/255)*20;
                     //var y2 = (4080/255)*150;
 
-                    var newWidth = (4080/255)*255;
+                    var newWidth = (4080/255)*22;
                     var newHeight = (newWidth / image.width) * image.height;
                     //var newWidth2 = (4080/255)*68;
                     //var newHeight2 = (newWidth2 / image2.width) * image2.height;
