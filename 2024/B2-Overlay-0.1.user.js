@@ -17,7 +17,7 @@
     'use strict';
 
     function setupImage() {
-        if (window.location.href === 'https://place.liste.bdekraken.fr') {
+        if (window.location.href === 'https://place.liste.bdekraken.fr/') {
 
             var canvas = document.getElementsByClassName("canvas svelte-1kjn625");
 
