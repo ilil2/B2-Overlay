@@ -32,6 +32,8 @@
                 image3.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/asterix-3px.png';
                 var image4 = new Image();
                 image4.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/qr-rick-3px.png';
+                var image5 = new Image();
+                image5.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/2024/epita-3px.png';
 
                 image.onload = function() {
                     var x = (4080/255)*218;
@@ -42,6 +44,8 @@
                     var y3 = (4080/255)*110;
                     var x4 = (4080/255)*45;
                     var y4 = (4080/255)*190;
+                    var x5 = (4080/255)*20;
+                    var y5 = (4080/255)*2;
 
                     var newWidth = (4080/255)*22;
                     var newHeight = (newWidth / image.width) * image.height;
@@ -51,6 +55,8 @@
                     var newHeight3 = (newWidth3 / image3.width) * image3.height;
                     var newWidth4 = (4080/255)*31;
                     var newHeight4 = (newWidth4 / image4.width) * image4.height;
+                    var newWidth5 = (4080/255)*44;
+                    var newHeight5 = (newWidth5 / image5.width) * image5.height;
 
                     context.globalAlpha = '1'
 
@@ -58,6 +64,7 @@
                     context.drawImage(image2, x2, y2, newWidth2, newHeight2);
                     context.drawImage(image3, x3, y3, newWidth3, newHeight3);
                     context.drawImage(image4, x4, y4, newWidth4, newHeight4);
+                    context.drawImage(image5, x5, y5, newWidth5, newHeight5);
                 };
             }
         }
