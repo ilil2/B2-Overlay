@@ -8,13 +8,13 @@ def agrandir_image(input_path, output_path):
         nouvelle_largeur, nouvelle_hauteur = largeur * 3, hauteur * 3
         nouvelle_image = Image.new('RGBA', (nouvelle_largeur, nouvelle_hauteur), color = (0,0,0,0))
 
-        pixels = img.load()
+        pixels = img.convert('RGBA')
         for y in range(hauteur):
             for x in range(largeur):
-                rgba = pixels[x, y]
+                rgba = pixels.getpixel((x, y))
                 nouvelle_image.putpixel((3*x + 1, 3*y + 1), rgba)
 
-        nouvelle_image.save(output_path, format = "PNG")
+        nouvelle_image.save(output_path, format="PNG")
 
 
 if __name__ == "__main__":
