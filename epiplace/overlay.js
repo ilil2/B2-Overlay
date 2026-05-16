@@ -25,8 +25,8 @@
             image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/epiplace/theophile-johnson-3px.png';
 
             image.onload = function () {
-                var x = (4080 / 250) * 27;
-                var y = (4080 / 250) * 34;
+                var x = 27;
+                var y = 34;
 
                 var newWidth = (4080 / 250) * 20;
                 var newHeight = (newWidth / image.width) * image.height;
