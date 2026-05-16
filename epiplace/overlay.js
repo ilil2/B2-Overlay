@@ -11,6 +11,7 @@
 // @downloadURL  https://raw.githubusercontent.com/ilil2/B2-Overlay/main/epiplace/overlay.js
 // ==/UserScript==
 
+let image;
 
 (function () {
     'use strict';
@@ -21,7 +22,8 @@
         if (true) {
             var context = canvas[0].getContext('2d');
 
-            var image = new Image();
+            image.remove();
+            image = new Image();
             image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/epiplace/theophile-johnson.png';
 
             image.onload = function () {
