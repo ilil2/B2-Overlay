@@ -31,7 +31,7 @@
                 var newWidth = 20;
                 var newHeight = (newWidth / image.width) * image.height;
 
-                context.globalAlpha = '1';
+                image.style.opacity = '0.5';
 
                 context.drawImage(image, x, y, newWidth, newHeight);
             };
