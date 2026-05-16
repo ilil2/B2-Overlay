@@ -22,7 +22,7 @@
             var context = canvas[0].getContext('2d');
 
             var image = new Image();
-            image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/epiplace/theophile-johnson-3px.png';
+            image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/epiplace/theophile-johnson.png';
 
             image.onload = function () {
                 var x = 27;
