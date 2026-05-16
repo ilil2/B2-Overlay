@@ -22,7 +22,10 @@ let image;
         if (true) {
             var context = canvas[0].getContext('2d');
 
-            image.remove();
+            if (image) {
+                image.remove();
+            }
+
             image = new Image();
             image.src = 'https://raw.githubusercontent.com/ilil2/B2-Overlay/main/epiplace/theophile-johnson.png';
 
