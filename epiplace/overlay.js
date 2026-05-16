@@ -28,7 +28,7 @@
                 var x = 27;
                 var y = 34;
 
-                var newWidth = (4080 / 250) * 20;
+                var newWidth = 20;
                 var newHeight = (newWidth / image.width) * image.height;
 
                 context.globalAlpha = '1';
